@@ -54,3 +54,11 @@ alias ohmyzsh="nvim ~/.oh-my-zsh"
 copy() {
   cat "$1" | zsh ~/bin/clip.sh
 }
+
+#yazi
+function open_yazi() { yazi; }
+zle -N open_yazi
+bindkey '^[y' open_yazi
+
+export EDITOR="nvim"
+export VISUAL="nvim"
