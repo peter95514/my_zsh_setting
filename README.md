@@ -5,7 +5,11 @@
 ``` sh
 git clone https://github.com/peter95514/my_zsh_setting.git
 ```
-進入my_zsh_setting資料夾後，執行init.sh檔案，即可正常使用
+進入my_zsh_setting資料夾後，執行
+``` sh
+./init.sh
+```
+執行完後即可正常使用
 
 ## 插件
 
