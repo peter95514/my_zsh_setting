@@ -22,3 +22,5 @@ curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 cargo install --locked yazi-fm yazi-cli
 echo "yazi init success"
+
+cp .zshrc ~/.zshrc
