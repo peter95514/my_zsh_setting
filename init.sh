@@ -23,4 +23,5 @@ source $HOME/.cargo/env
 cargo install --locked yazi-fm yazi-cli
 echo "yazi init success"
 
+rm ~/.zshrc
 cp .zshrc ~/.zshrc
